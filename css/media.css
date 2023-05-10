@@ -1,0 +1,37 @@
+@media (max-width: 540px) {
+    .container, .chances, .solutions {
+        width: 95%;
+        border-radius: 0;
+        margin: auto;
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    
+
+    p, .newGame {
+        font-size: 30px;
+    }
+
+    .buttons {
+        grid-template-columns: repeat(5, 50px);
+        grid-template-rows: repeat(3, 50px);
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    .container, .chances, .solutions {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .chances p, .solutions p {
+        font-size: 24px;
+    }
+}
